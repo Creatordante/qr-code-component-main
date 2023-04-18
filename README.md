@@ -16,7 +16,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [https://github.com/Creatordante/qr-code-component-main](https://github.com/Creatordante/qr-code-component-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://delicate-cocada-8c11b8.netlify.app/](https://delicate-cocada-8c11b8.netlify.app/)
 
 ### Built with
 
