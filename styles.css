@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--light-gray);
+  font-family: "Outfit", sans-serif;
+}
+
+.qr-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+  width: 20.2rem;
+  border-radius: 15px;
+  padding: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.qr-card img {
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.qr-card h1 {
+  color: var(--dark-blue);
+  margin: 1.5rem 0;
+  padding: 0 1rem;
+  text-align: center;
+  font-size: 22px;
+}
+
+.qr-card p {
+  font-size: 15px;
+  color: var(--grayish-blue);
+  padding: 0 1rem;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
